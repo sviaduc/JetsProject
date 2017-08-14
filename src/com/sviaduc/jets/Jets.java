@@ -46,6 +46,24 @@ public class Jets {
 		this.price = price;
 	}
 
+
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Jets [model=");
+		builder.append(model);
+		builder.append(", range=");
+		builder.append(range);
+		builder.append(", price=");
+		builder.append(price);
+		builder.append(", speed=");
+		builder.append(speed);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
 	
 }
 	
